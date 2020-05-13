@@ -1,0 +1,21 @@
+"*":
+  "atom-clock":
+    showClockIcon: true
+  core:
+    telemetryConsent: "limited"
+    themes: [
+      "atom-material-ui"
+      "atom-material-syntax"
+    ]
+  "exception-reporting":
+    userId: "95304895-22da-480e-a3fe-87d5f5c53f75"
+  "git-blame":
+    colorCommitAuthors: true
+    columnWidth: 313
+  "spell-check":
+    locales: [
+      "en-US"
+    ]
+    useLocales: false
+  welcome:
+    showOnStartup: false
