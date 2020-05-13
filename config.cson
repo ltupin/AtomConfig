@@ -12,6 +12,8 @@
   "git-blame":
     colorCommitAuthors: true
     columnWidth: 313
+  github:
+    remoteFetchProtocol: "ssh"
   "spell-check":
     locales: [
       "en-US"
