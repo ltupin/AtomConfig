@@ -13,9 +13,12 @@
 # 'atom-text-editor':
 #   'enter': 'editor:newline'
 #
-# 'atom-workspace':
-#   'ctrl-shift-p': 'core:move-up'
-#   'ctrl-p': 'core:move-down'
+'.platform-darwin':
+  'cmd-t cmd-t': 'tree-view:toggle'
+
+'.workspace':
+  'cmd-g cmd-g': 'github:toggle-git-tab'
+#  'cmd-maj-g': 'github:toggle-github-tab-focus'
 #
 # You can find more information about keymaps in these guides:
 # * http://flight-manual.atom.io/using-atom/sections/basic-customization/#customizing-keybindings
